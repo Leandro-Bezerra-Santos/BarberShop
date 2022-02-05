@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- SWIPER-->
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!--GLOBAL STYLES-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/sl/style.css" />
+
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+  
+    <title>BarberShop</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Barbers<span>Shop</span>.</a>
+        <div class="menu ">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle  icon-menu"></div>
+        <div class="toggle  icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1599351430140-c70f0250bd70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt="Corte de cabelo"
+            />
+          </div>
+
+          <div class="text">
+            <h2 class="title">Especializados em cortes</h2>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em cortes de
+              cabelos unisex
+            </p>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="3 mulheres sorrindo">
+          </div>
+          
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>Somos uma barbearia que presa pela experiências do nossos clientes, e fazemos isso através dos produtos para cabelos femininos e masculinos que vendemos, dos cortes profissionais que fazemos. E tudo isso em um valor que cabe no seu bolso!!</p>
+
+          </br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laborum, accusamus distinctio, aliquam ut, alias asperiores mollitia voluptates ex vero nemo optio! Esse modi nulla inventore illo debitis, minus accusantium!</p>
+
+          </br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laborum, accusamus distinctio, aliquam ut, alias asperiores mollitia voluptates ex vero nemo optio! Esse modi nulla inventore illo debitis, minus accusantium!</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">Com mais de 10 anos no mercado, o <strong>BarberShop</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia Capilar</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam veniam quod consequatur. Similique sapiente laudantium veritatis sint quae ad consequuntur repellat autem porro atque et itaque, temporibus facere explicabo pariatur.</p>
+            </div>
+
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptate laboriosam quis quasi voluptates placeat necessitatibus perferendis? </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptate laboriosam quis quasi voluptates placeat necessitatibus perferendis? </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem ja passou por aqui!</h2>
+          </header>
+            <div class="testimonials swiper-container">
+              <div class="swiper-wrapper">
+                <div class="testimonial swiper-slide">
+                  <blockquote>
+                    <p>
+                      <span>&ldquo;</span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde quaerat tempora laudantium possimus cum quis minus! Accusantium illum commodi quae totam magnam, quibusdam
+                    </p>
+                    <cite>
+                      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="fotos depoimentos">
+                      Roberta
+                    </cite>
+                  </blockquote>
+                </div>
+  
+                <div class="testimonial swiper-slide">
+                  <blockquote>
+                    <p>
+                      <span>&ldquo;</span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde quaerat tempora laudantium possimus cum quis minus! Accusantium illum commodi quae totam magnam, quibusdam
+                    </p>
+                    <cite>
+                      <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="fotos depoimentos">
+                      Marcos
+                    </cite>
+                  </blockquote>
+                </div>
+  
+                <div class="testimonial swiper-slide">
+                  <blockquote>
+                    <p>
+                      <span>&ldquo;</span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde quaerat tempora laudantium possimus cum quis minus! Accusantium illum commodi quae totam magnam, quibusdam
+                    </p>
+                    <cite>
+                      <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="fotos depoimentos">
+                      julia
+                    </cite>
+                  </blockquote>
+                </div>
+                
+                <div class="testimonial swiper-slide">
+                  <blockquote>
+                    <p>
+                      <span>&ldquo;</span>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde quaerat tempora laudantium possimus cum quis minus! Accusantium illum commodi quae totam magnam, quibusdam
+                    </p>
+                    <cite>
+                      <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="fotos depoimentos">
+                      julia
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+
+            <div class="swiper-pagination"></div>
+            </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h1 class="title">Entre em contato com a gente!!</h1>
+            <p>Entre em contato com o <strong>BarberShop</strong>, quereoms tirar todas as suas dúvidas, ouvir suas criticas e sugestões.</p>
+            <a href="https://api.whatsapp.com/send?phone=5511 9121314157&&text=hello" target="_blank" class="button"><i class="icon-whatsapp"></i>Entrar em contato</a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 91213-1415</li>
+              <li><i class="icon-map-pin"></i>Rua ...</li>
+              <li><i class="icon-mail"></i> barbershop.gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+      <footer class="section">
+        <div class="container grid">
+          <div class="brand">
+            <a class="logo logo-alt" href="#home">Barber<span>Shop</span>.</a>
+            <p>2022 BarberShop.</p>
+            <p>Todos os direitos reservados.</p>
+          </div>
+          <div class="social grid">
+            <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+          </div>
+        </div>
+      </footer>
+
+      <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
