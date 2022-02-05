@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="OriginSix" src="./BarberShop.png" width="100%">
+  <img alt="OriginSix" src="./BarberShop.png" href="https://leandro-bezerra-santos.github.io/BarberShop/" width="100%">
 </p>
 
 ## 🚀 Tecnologias
